@@ -1,0 +1,14 @@
+# Provider: skygo
+# Service: Sky Go
+# Group: UKMedia
+# Purpose: Sky 电视节目及直播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.netify.ai/resources/telco/sky
+#   - https://www.privacyaffairs.com/unblock-sky-go/
+payload:
+  - DOMAIN-SUFFIX,sky.com
+  - DOMAIN-SUFFIX,skycdp.com
+  - DOMAIN-SUFFIX,epgsky.com
+  - DOMAIN-SUFFIX,nowtv.com
+  - DOMAIN-SUFFIX,skymedia.co.uk

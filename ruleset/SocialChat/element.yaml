@@ -1,0 +1,15 @@
+# Provider: element
+# Service: Element (Matrix)
+# Group: SocialChat
+# Purpose: 基于 Matrix 协议的去中心化加密通讯
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://docs.element.io/latest/element-cloud-documentation/element-matrix-services/domains-and-ip-addresses/
+payload:
+  - DOMAIN-SUFFIX,element.dev
+  - DOMAIN-SUFFIX,element.io
+  - DOMAIN-SUFFIX,ems.host
+  - DOMAIN-SUFFIX,matrix.org
+  - DOMAIN-SUFFIX,modular.im
+  - DOMAIN-SUFFIX,riot.im
+  - DOMAIN-SUFFIX,vector.im

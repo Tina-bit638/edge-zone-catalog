@@ -1,0 +1,18 @@
+# Provider: paramountplus
+# Service: Paramount+
+# Group: Media
+# Purpose: 派拉蒙流媒体影视平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/Networkzt/Clash/blob/main/Streaming.list
+#   - https://github.com/1-stream/1stream-public-utils/blob/main/stream.xray.list
+payload:
+  - DOMAIN,cbsi.live.ott.irdeto.com
+  - DOMAIN,cbsplaylistserver.aws.syncbak.com
+  - DOMAIN,cbsservice.aws.syncbak.com
+  - DOMAIN,link.theplatform.com
+  - DOMAIN-SUFFIX,cbsaavideo.com
+  - DOMAIN-SUFFIX,cbsi.com
+  - DOMAIN-SUFFIX,cbsivideo.com
+  - DOMAIN-SUFFIX,paramountplus.com
+  - DOMAIN-SUFFIX,pplusstatic.com

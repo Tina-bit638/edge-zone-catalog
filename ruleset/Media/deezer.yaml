@@ -1,0 +1,10 @@
+# Provider: deezer
+# Service: Deezer
+# Group: Media
+# Purpose: 法国/国际无损音乐流媒体平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/Networkzt/Clash/blob/main/Streaming.list
+payload:
+  - DOMAIN-SUFFIX,deezer.com
+  - DOMAIN-SUFFIX,dzcdn.net

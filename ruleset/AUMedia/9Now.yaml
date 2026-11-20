@@ -1,0 +1,34 @@
+# Provider: 9now
+# Service: 9Now
+# Group: AUMedia
+# Purpose: 澳大利亚 Nine Network 电视节目及直播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/hkrob/adblock/blob/main/rob-dns4me
+payload:
+  - DOMAIN-SUFFIX,9now.com.au
+  - DOMAIN-SUFFIX,nine.com.au
+  - DOMAIN-SUFFIX,static9.net.au
+  - DOMAIN-SUFFIX,ninemsn.com.au
+  - DOMAIN,9now-vod-progressive.akamaized.net
+  - DOMAIN,9now-vod-hls.akamaized.net
+  - DOMAIN,9now-vod-once.akamaized.net
+  - DOMAIN,9now-vod-dash.akamaized.net
+  - DOMAIN,9now-vod-dash-bc-origin.akamaized.net
+  - DOMAIN,p-9now.akamaized.net
+  - DOMAIN,9now-live.akamaized.net
+  - DOMAIN,p-9now-live-events.akamaized.net
+  - DOMAIN,p-9now-img.akamaized.net
+  - DOMAIN,p-9now-ys.akamaized.net
+  - DOMAIN,9now-livestreams.akamaized.net
+  - DOMAIN,9nowlivehls-i.akamaihd.net
+  - DOMAIN,9nowvodhds-vh.akamaihd.net
+  - DOMAIN,9nowch9livehls-i.akamaihd.net
+  - DOMAIN,9nowgemlivehls-i.akamaihd.net
+  - DOMAIN,9nowgolivehls-i.akamaihd.net
+  - DOMAIN,9nowlifelivehls-i.akamaihd.net
+  - DOMAIN,ssaiplayback.prod.boltdns.net
+  - DOMAIN,ssaiplayback.ap-southeast-2.prod.boltdns.net
+  - DOMAIN,manifest.prod.boltdns.net
+  - DOMAIN,once-mi9.unicornmedia.com
+  - DOMAIN,once-aws-ap-southeast-2-lb.unicornmedia.com

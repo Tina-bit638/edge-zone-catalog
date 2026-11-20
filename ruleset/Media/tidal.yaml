@@ -1,0 +1,11 @@
+# Provider: tidal
+# Service: TIDAL
+# Group: Media
+# Purpose: Hi-Res 高解析度流媒体音乐平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://git.ngtech.co.il/NgTech-LTD/v2fly-domain-list-community/src/commit/2a0fb64efd0ef47f9f34a6c5f8cabb56d4cfb14d/data/tidal
+payload:
+  - DOMAIN-SUFFIX,tidal.com
+  - DOMAIN-SUFFIX,tidalhifi.com
+  - DOMAIN-SUFFIX,wimpmusic.com

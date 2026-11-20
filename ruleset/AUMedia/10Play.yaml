@@ -1,0 +1,32 @@
+# Provider: 10play
+# Service: 10 Play
+# Group: AUMedia
+# Purpose: 澳大利亚 Network 10 电视节目及直播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/hkrob/adblock/blob/main/rob-dns4me
+payload:
+  - DOMAIN-SUFFIX,10play.com.au
+  - DOMAIN-SUFFIX,10.com.au
+  - DOMAIN-SUFFIX,tenplay.com.au
+  - DOMAIN-SUFFIX,ten.com.au
+  - DOMAIN-SUFFIX,networkten.com.au
+  - DOMAIN,10play-vod.global.ssl.fastly.net
+  - DOMAIN,10play-live.global.ssl.fastly.net
+  - DOMAIN,10-selector.global.ssl.fastly.net
+  - DOMAIN,10-cms-feed.global.ssl.fastly.net
+  - DOMAIN,10play-live.akamaized.net
+  - DOMAIN,bcboltnet10tp.akamaized.net
+  - DOMAIN,network10sec-dai-live.akamaized.net
+  - DOMAIN,network10sec-dai-live-v2.akamaized.net
+  - DOMAIN,network10sec-live-me.akamaized.net
+  - DOMAIN,hlsnetworkten-a.akamaihd.net
+  - DOMAIN,httpsnetworkten-a.akamaihd.net
+  - DOMAIN,networkten_once-a.akamaihd.net
+  - DOMAIN,networktenuds-a.akamaihd.net
+  - DOMAIN,networktenonce-a.akamaihd.net
+  - DOMAIN,networktensecure-a.akamaihd.net
+  - DOMAIN,networkten-a.akamaihd.net
+  - DOMAIN,networkten.once.edgesuite.net
+  - DOMAIN,networktenad.edgesuite.net
+  - DOMAIN,csm-e.cds1.yospace.com

@@ -1,0 +1,18 @@
+# Provider: imessage
+# Service: iMessage
+# Group: SocialChat
+# Purpose: Apple 生态即时通讯与推送服务（含 FaceTime 信令）
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/v2fly/domain-list-community/blob/master/data/apple
+#   - https://discussions.apple.com/thread/256245344
+payload:
+  - DOMAIN,courier-push-apple.com.akadns.net
+  - DOMAIN,init.ess.apple.com
+  - DOMAIN-SUFFIX,ess.apple.com
+  - DOMAIN-SUFFIX,icloud-content.com
+  - DOMAIN-SUFFIX,imessage.apple.com
+  - DOMAIN-SUFFIX,imessage.tv
+  - DOMAIN-SUFFIX,iphoneimessage.com
+  - DOMAIN-SUFFIX,push-apple.com.akadns.net
+  - DOMAIN-SUFFIX,push.apple.com

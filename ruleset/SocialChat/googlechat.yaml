@@ -1,0 +1,10 @@
+# Provider: googlechat
+# Service: Google Chat
+# Group: SocialChat
+# Purpose: Google Workspace 聊天与视频会议（含 Google Meet 入口）
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.webnots.com/complete-list-of-google-subdomains/
+payload:
+  - DOMAIN,chat.google.com
+  - DOMAIN,hangouts.google.com

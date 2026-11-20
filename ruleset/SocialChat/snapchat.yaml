@@ -1,0 +1,20 @@
+# Provider: snapchat
+# Service: Snapchat
+# Group: SocialChat
+# Purpose: 阅后即焚社交与短视频通讯
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/Z-Siqi/Clash-for-Windows_Rule/blob/main/Rule/Snapchat
+payload:
+  - DOMAIN-SUFFIX,addlive.io
+  - DOMAIN-SUFFIX,feelinsonice.com
+  - DOMAIN-SUFFIX,sc-cdn.net
+  - DOMAIN-SUFFIX,sc-corp.net
+  - DOMAIN-SUFFIX,sc-gw.com
+  - DOMAIN-SUFFIX,sc-jpl.com
+  - DOMAIN-SUFFIX,sc-prod.net
+  - DOMAIN-SUFFIX,sc-static.net
+  - DOMAIN-SUFFIX,snap-dev.net
+  - DOMAIN-SUFFIX,snapads.com
+  - DOMAIN-SUFFIX,snapchat.com
+  - DOMAIN-SUFFIX,snapkit.com

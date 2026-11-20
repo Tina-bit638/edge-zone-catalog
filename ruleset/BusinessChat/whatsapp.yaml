@@ -1,0 +1,27 @@
+# Provider: whatsapp
+# Service: WhatsApp
+# Group: BusinessChat
+# Purpose: 海外跨国商务及个人即时通讯
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Whatsapp/README.md
+#   - https://github.com/Hackl0us/SS-Rule-Snippet/blob/main/Rulesets/Clash/App/social/WhatsApp.yaml
+payload:
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+  - DOMAIN-SUFFIX,whatsapp.biz
+  - DOMAIN-SUFFIX,wa.me
+  - DOMAIN-SUFFIX,whatsapp.cc
+  - DOMAIN-SUFFIX,whatsapp.info
+  - DOMAIN-SUFFIX,whatsapp.org
+  - DOMAIN-SUFFIX,whatsapp.tv
+  - DOMAIN-SUFFIX,whatsappbrand.com
+  - DOMAIN-SUFFIX,whatsapp-plus.info
+  - DOMAIN-SUFFIX,whatsapp-plus.me
+  - DOMAIN-SUFFIX,whatsapp-plus.net
+  - DOMAIN-KEYWORD,whatsapp
+  - IP-CIDR,31.13.64.0/18,no-resolve
+  - IP-CIDR,57.144.0.0/14,no-resolve
+  - IP-CIDR,57.148.0.0/15,no-resolve
+  - IP-CIDR,157.240.0.0/16,no-resolve
+  - IP-CIDR,185.60.216.0/22,no-resolve

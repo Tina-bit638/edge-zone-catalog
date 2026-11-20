@@ -1,0 +1,32 @@
+# Provider: sevenplus
+# Service: 7plus
+# Group: AUMedia
+# Purpose: 澳大利亚 Seven Network 直播及点播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/hkrob/adblock/blob/main/rob-dns4me
+payload:
+  - DOMAIN-SUFFIX,7plus.com.au
+  - DOMAIN-SUFFIX,7livecloud.io
+  - DOMAIN-SUFFIX,7vodcloud.io
+  - DOMAIN-SUFFIX,swm.digital
+  - DOMAIN-SUFFIX,7tennis.com.au
+  - DOMAIN,live-sevennetwork.akamaized.net
+  - DOMAIN,7plus-sevennetwork.akamaized.net
+  - DOMAIN,npc-live-sevennetwork.akamaized.net
+  - DOMAIN,tbs-live-sevennetwork.akamaized.net
+  - DOMAIN,sevenwestmedia01-i.akamaihd.net
+  - DOMAIN,sevenwestmedia-a.akamaihd.net
+  - DOMAIN,sydneyseven-i.akamaihd.net
+  - DOMAIN,melbourneseven-i.akamaihd.net
+  - DOMAIN,perthseven-i.akamaihd.net
+  - DOMAIN,yahoo7p-a.akamaihd.net
+  - DOMAIN,yahoo7pdash-a.akamaihd.net
+  - DOMAIN,yahoo7g-a.akamaihd.net
+  - DOMAIN,yahoo7prodgen-a.akamaihd.net
+  - DOMAIN,csm-e-n7aus.tls1.yospace.com
+  - DOMAIN,csmn7.geo.yospace.com
+  - DOMAIN,d1wtwtr454o2o0.cloudfront.net
+  - DOMAIN,d1hllnu8jtd1xs.cloudfront.net
+  - DOMAIN,d38dboir9k5ufx.cloudfront.net
+  - DOMAIN,do7xo3qlybwuf.cloudfront.net

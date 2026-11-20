@@ -1,0 +1,12 @@
+# Provider: signal
+# Service: Signal
+# Group: SocialChat
+# Purpose: 端到端加密即时通讯与语音通话
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://git.ngtech.co.il/NgTech-LTD/v2fly-domain-list-community/blame/commit/1089dac5fa5875b8f96a48a7c21f74095a8610b8/data/signal
+payload:
+  - DOMAIN-SUFFIX,signal.art
+  - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,signalusers.org
+  - DOMAIN-SUFFIX,whispersystems.org

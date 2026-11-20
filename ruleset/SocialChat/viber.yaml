@@ -1,0 +1,16 @@
+# Provider: viber
+# Service: Viber
+# Group: SocialChat
+# Purpose: 跨平台即时通讯与网络电话
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.netify.ai/resources/applications/viber
+payload:
+  - DOMAIN-SUFFIX,vb.me
+  - DOMAIN-SUFFIX,viber.com
+  - DOMAIN-SUFFIX,viberdns.com
+  - IP-CIDR,3.67.81.0/27,no-resolve
+  - IP-CIDR,3.101.175.128/27,no-resolve
+  - IP-CIDR,3.112.85.80/29,no-resolve
+  - IP-CIDR,3.209.202.16/28,no-resolve
+  - IP-CIDR,18.192.196.192/29,no-resolve

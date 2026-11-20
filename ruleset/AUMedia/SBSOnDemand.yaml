@@ -1,0 +1,21 @@
+# Provider: sbsondemand
+# Service: SBS On Demand
+# Group: AUMedia
+# Purpose: 澳大利亚 SBS 影视剧、纪录片及国际节目
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/hkrob/adblock/blob/main/rob-dns4me
+payload:
+  - DOMAIN-SUFFIX,sbs.com.au
+  - DOMAIN,videocdn-sbs.akamaized.net
+  - DOMAIN,adease-sbs.akamaized.net
+  - DOMAIN,sbs-live.akamaized.net
+  - DOMAIN,sbslive.akamaized.net
+  - DOMAIN,sbsauvod-f.akamaihd.net
+  - DOMAIN,sbsauvodenc-vh.akamaihd.net
+  - DOMAIN,sbsvodns-vh.akamaihd.net
+  - DOMAIN,sbsvoddai-vh.akamaihd.net
+  - DOMAIN,sbsvodco-vh.akamaihd.net
+  - DOMAIN,136551hdiosvod-i.akamaihd.net
+  - DOMAIN,136555hdslvod-s.akamaihd.net
+  - DOMAIN,cp98427.live.edgefcs.net

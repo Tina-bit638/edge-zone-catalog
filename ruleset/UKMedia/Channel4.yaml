@@ -1,0 +1,13 @@
+# Provider: channel4
+# Service: Channel 4
+# Group: UKMedia
+# Purpose: 英国电视节目、直播及点播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/Lanlan13-14/Rules/refs/heads/main/rules/Domain/streaming_uk.list
+#   - https://www.reddit.com/r/pihole/comments/154ku0y/uk_channel_4_app_now_showing_ads/
+payload:
+  - DOMAIN-SUFFIX,channel4.com
+  - DOMAIN-SUFFIX,c4assets.com
+  - DOMAIN-SUFFIX,c4cloud.co.uk
+  - DOMAIN,ak-jos-c4assets-com.akamaized.net

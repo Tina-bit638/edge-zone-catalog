@@ -1,0 +1,11 @@
+# Provider: wire
+# Service: Wire
+# Group: SocialChat
+# Purpose: 企业与个人端到端加密通讯协作
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://docs.wire.com/latest/developer/developer/building.html
+payload:
+  - DOMAIN-SUFFIX,wire.com
+  - DOMAIN-SUFFIX,wire.link
+  - DOMAIN-SUFFIX,zinfra.io

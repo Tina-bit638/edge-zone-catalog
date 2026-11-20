@@ -1,0 +1,20 @@
+# Provider: applemusic
+# Service: Apple Music
+# Group: Media
+# Purpose: Apple 音乐流媒体与电台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.reddit.com/r/HomePod/comments/1p2wd23/homepod_keeps_playing_music_automatically/
+#   - https://docs.multi-scrobbler.app/configuration/sources/applemusic/
+payload:
+  - DOMAIN,amp-api.music.apple.com
+  - DOMAIN,audio.itunes.apple.com
+  - DOMAIN,is1-ssl.mzstatic.com
+  - DOMAIN,is2-ssl.mzstatic.com
+  - DOMAIN,is3-ssl.mzstatic.com
+  - DOMAIN,is4-ssl.mzstatic.com
+  - DOMAIN,is5-ssl.mzstatic.com
+  - DOMAIN,music.apple.com
+  - DOMAIN,play.itunes.apple.com
+  - DOMAIN,radio.itunes.apple.com
+  - DOMAIN,streamingaudio.itunes.apple.com

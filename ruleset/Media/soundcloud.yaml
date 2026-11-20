@@ -1,0 +1,11 @@
+# Provider: soundcloud
+# Service: SoundCloud
+# Group: Media
+# Purpose: 独立音乐人与播客音频平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/Networkzt/Clash/blob/main/Streaming.list
+payload:
+  - DOMAIN-SUFFIX,p-cdn.us
+  - DOMAIN-SUFFIX,sndcdn.com
+  - DOMAIN-SUFFIX,soundcloud.com

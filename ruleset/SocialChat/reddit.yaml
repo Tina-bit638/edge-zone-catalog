@@ -1,0 +1,16 @@
+# Provider: reddit
+# Service: Reddit
+# Group: SocialChat
+# Purpose: 海外兴趣社区与论坛讨论
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Reddit/Reddit.list
+payload:
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redditmail.com
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
+  - DOMAIN-SUFFIX,reddituploads.com
+  - DOMAIN-SUFFIX,reddituploads.com.cdn-cf.behance.net
+  - DOMAIN-SUFFIX,reddituploads.com.cdn-cf.dropbox.com

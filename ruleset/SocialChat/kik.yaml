@@ -1,0 +1,9 @@
+# Provider: kik
+# Service: Kik
+# Group: SocialChat
+# Purpose: 匿名即时通讯应用
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.netify.ai/resources/applications/kik
+payload:
+  - DOMAIN-SUFFIX,kik.com

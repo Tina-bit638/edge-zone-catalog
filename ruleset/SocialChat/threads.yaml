@@ -1,0 +1,10 @@
+# Provider: threads
+# Service: Threads
+# Group: SocialChat
+# Purpose: Meta 文字动态社交应用（媒体资源共用 instagram/facebook）
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/v2fly/domain-list-community/issues/3099
+payload:
+  - DOMAIN-SUFFIX,threads.com
+  - DOMAIN-SUFFIX,threads.net

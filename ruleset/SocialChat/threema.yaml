@@ -1,0 +1,10 @@
+# Provider: threema
+# Service: Threema
+# Group: SocialChat
+# Purpose: 瑞士高隐私端到端加密即时通讯
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://threema.ch/en/work/support/firewall
+payload:
+  - DOMAIN-SUFFIX,threema.ch
+  - DOMAIN-SUFFIX,threema.com

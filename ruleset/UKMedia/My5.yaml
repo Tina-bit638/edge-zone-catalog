@@ -1,0 +1,13 @@
+# Provider: my5
+# Service: My5
+# Group: UKMedia
+# Purpose: Channel 5 电视节目及点播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://docs.controld.com/discuss/69aa24fc7b72bc7829ee0e56
+payload:
+  - DOMAIN-SUFFIX,channel5.com
+  - DOMAIN-SUFFIX,my5.tv
+  - DOMAIN-SUFFIX,viacomcbs.digital
+  - DOMAIN,akadash0.akamaized.net
+  - DOMAIN,c5ads.ott.skymedia.co.uk

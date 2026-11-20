@@ -1,0 +1,39 @@
+# Provider: disneyplus
+# Service: Disney+
+# Group: Media
+# Purpose: 迪士尼流媒体影视平台（含 Hotstar/Star+）
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Disney/Disney.list
+payload:
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,conviva.com
+  - DOMAIN-SUFFIX,dilcdn.com
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disney.com
+  - DOMAIN-SUFFIX,disney.co.uk
+  - DOMAIN-SUFFIX,disney.co.jp
+  - DOMAIN-SUFFIX,disney.com.au
+  - DOMAIN-SUFFIX,disney.com.hk
+  - DOMAIN-SUFFIX,disney.com.tw
+  - DOMAIN-SUFFIX,disneyplus.bn5x.net
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,dssedge.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN-SUFFIX,dtci.co
+  - DOMAIN-SUFFIX,dtci.technology
+  - DOMAIN-SUFFIX,espn.com
+  - DOMAIN-SUFFIX,espncdn.com
+  - DOMAIN-SUFFIX,hotstar-cdn.net
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-SUFFIX,hsprepack.akamaized.net
+  - DOMAIN-SUFFIX,marvel.com
+  - DOMAIN-SUFFIX,moviesanywhere.com
+  - DOMAIN-SUFFIX,nationalgeographic.com
+  - DOMAIN-SUFFIX,starott.com
+  - DOMAIN-SUFFIX,starplus.com
+  - DOMAIN-SUFFIX,starwars.com
+  - DOMAIN-SUFFIX,streamingdisney.net
+  - DOMAIN-SUFFIX,watchdisneyfe.com

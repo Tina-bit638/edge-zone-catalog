@@ -1,0 +1,14 @@
+# Provider: zalo
+# Service: Zalo
+# Group: SocialChat
+# Purpose: 越南主流即时通讯与社交服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.netify.ai/resources/applications/zalo
+payload:
+  - DOMAIN-SUFFIX,zadn.vn
+  - DOMAIN-SUFFIX,zalo.me
+  - DOMAIN-SUFFIX,zalo.video
+  - DOMAIN-SUFFIX,zaloapp.com
+  - DOMAIN-SUFFIX,zapps.me
+  - DOMAIN-SUFFIX,zdn.vn

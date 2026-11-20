@@ -1,0 +1,28 @@
+# Provider: teams
+# Service: Microsoft Teams
+# Group: BusinessChat
+# Purpose: 企业团队协作、办公即时通讯与在线会议
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
+payload:
+  - DOMAIN-SUFFIX,teams.microsoft.com
+  - DOMAIN-SUFFIX,teams.cloud.microsoft
+  - DOMAIN-SUFFIX,teams.live.com
+  - DOMAIN-SUFFIX,microsoftteams.com
+  - DOMAIN-SUFFIX,teams.cdn.office.net
+  - DOMAIN-SUFFIX,lync.com
+  - DOMAIN-SUFFIX,skype.com
+  - DOMAIN-SUFFIX,keydelivery.mediaservices.windows.net
+  - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
+  - DOMAIN,aka.ms
+  - DOMAIN,adl.windows.com
+  - IP-CIDR,52.112.0.0/14,no-resolve
+  - IP-CIDR,52.122.0.0/15,no-resolve
+  - IP-CIDR6,2603:1027::/48,no-resolve
+  - IP-CIDR6,2603:1037::/48,no-resolve
+  - IP-CIDR6,2603:1047::/48,no-resolve
+  - IP-CIDR6,2603:1057::/48,no-resolve
+  - IP-CIDR6,2603:1063::/38,no-resolve
+  - IP-CIDR6,2620:1ec:6::/48,no-resolve
+  - IP-CIDR6,2620:1ec:40::/42,no-resolve

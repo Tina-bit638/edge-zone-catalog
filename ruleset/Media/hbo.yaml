@@ -1,0 +1,38 @@
+# Provider: hbo
+# Service: Max (HBO)
+# Group: Media
+# Purpose: HBO / Max 流媒体影视平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/v2fly/domain-list-community/blob/master/data/hbo
+#   - https://github.com/1-stream/1stream-public-utils/blob/main/stream.xray.list
+payload:
+  - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
+  - DOMAIN,bcbolthboa-a.akamaihd.net
+  - DOMAIN,dai3fd1oh325y.cloudfront.net
+  - DOMAIN,hbo.com.c.footprint.net
+  - DOMAIN,hbo.com.edgesuite.net
+  - DOMAIN,hbo.map.fastly.net
+  - DOMAIN,hboasia1-i.akamaihd.net
+  - DOMAIN,hboasia2-i.akamaihd.net
+  - DOMAIN,hboasia3-i.akamaihd.net
+  - DOMAIN,hboasia4-i.akamaihd.net
+  - DOMAIN,hboasia5-i.akamaihd.net
+  - DOMAIN,hboasialive.akamaized.net
+  - DOMAIN,hbogoprod-vod.akamaized.net
+  - DOMAIN,hbolb.onwardsmg.com
+  - DOMAIN,hbomax-images.warnermediacdn.com
+  - DOMAIN,hbomaxdash.s.llnwi.net
+  - DOMAIN,hbounify-prod.evergent.com
+  - DOMAIN-SUFFIX,cinemax.com
+  - DOMAIN-SUFFIX,discomax.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hboasia.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoasia.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomax.eu
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,max.com
+  - DOMAIN-SUFFIX,maxgo.com

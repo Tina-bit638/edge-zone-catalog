@@ -1,0 +1,14 @@
+# Provider: imo
+# Service: imo
+# Group: SocialChat
+# Purpose: 国际视频通话与即时通讯应用
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://www.netify.ai/resources/applications/imo
+payload:
+  - DOMAIN-SUFFIX,imo.im
+  - IP-CIDR,5.150.156.0/22,no-resolve
+  - IP-CIDR,38.90.96.0/24,no-resolve
+  - IP-CIDR,69.57.173.0/24,no-resolve
+  - IP-CIDR,83.229.88.0/22,no-resolve
+  - IP-CIDR,83.229.96.0/22,no-resolve

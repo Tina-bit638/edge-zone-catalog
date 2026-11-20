@@ -1,0 +1,23 @@
+# Provider: abciview
+# Service: ABC iview
+# Group: AUMedia
+# Purpose: 澳大利亚 ABC 电视节目、纪录片及直播
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://github.com/hkrob/adblock/blob/main/rob-dns4me
+payload:
+  - DOMAIN-SUFFIX,abc.net.au
+  - DOMAIN,iview-vod.akamaized.net
+  - DOMAIN,iview-vod-hls.akamaized.net
+  - DOMAIN,abc-iview-mediapackagestreams-1.akamaized.net
+  - DOMAIN,abc-iview-mediapackagestreams-2.akamaized.net
+  - DOMAIN,iviewmetered-vh.akamaihd.net
+  - DOMAIN,iviewhls-i.akamaihd.net
+  - DOMAIN,iviewhlsvod-vh.akamaihd.net
+  - DOMAIN,abctvlivehds-lh.akamaihd.net
+  - DOMAIN,abctvlivehls-lh.akamaihd.net
+  - DOMAIN,abcnews24livehds-lh.akamaihd.net
+  - DOMAIN,abcnews24hls-lh.akamaihd.net
+  - DOMAIN,abcsecurehttp-a.akamaihd.net
+  - DOMAIN,a888.avodsl-s.akamaihd.net
+  - DOMAIN,cp81899.live.edgefcs.net

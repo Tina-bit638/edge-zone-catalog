@@ -20,8 +20,6 @@ OpenClash / Mihomo 独立 YAML 规则集（5 大分组，共 55 个服务）。
 | `SocialChat` | `viber` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/viber.yaml` |
 | `SocialChat` | `googlechat` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/googlechat.yaml` |
 | `SocialChat` | `imessage` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/imessage.yaml` |
-| `SocialChat` | `wechat` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/wechat.yaml` |
-| `SocialChat` | `qq` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/qq.yaml` |
 | `SocialChat` | `zalo` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/zalo.yaml` |
 | `SocialChat` | `threema` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/threema.yaml` |
 | `SocialChat` | `wire` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/wire.yaml` |

@@ -1,0 +1,13 @@
+# Provider: cursor
+# Service: Cursor
+# Group: AI
+# Purpose: Cursor AI 编程编辑器与补全服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,cursorvm.com

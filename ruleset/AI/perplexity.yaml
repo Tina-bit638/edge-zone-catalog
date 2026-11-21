@@ -1,0 +1,13 @@
+# Provider: perplexity
+# Service: Perplexity AI
+# Group: AI
+# Purpose: Perplexity AI 实时搜索与问答服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+  - DOMAIN,pplx-res.cloudinary.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,perplexity.com
+  - DOMAIN-SUFFIX,pplx.ai

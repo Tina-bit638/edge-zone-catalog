@@ -1,0 +1,10 @@
+# Provider: runway
+# Service: Runway
+# Group: AI
+# Purpose: Runway AI 视频生成与创意工具
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,runway.com
+  - DOMAIN-SUFFIX,runwayml.com

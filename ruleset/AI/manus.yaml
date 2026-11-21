@@ -1,0 +1,11 @@
+# Provider: manus
+# Service: Manus AI
+# Group: AI
+# Purpose: Manus 通用 AI Agent 平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,manus.ai
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,manuscdn.com

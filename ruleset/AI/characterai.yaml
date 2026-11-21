@@ -1,0 +1,10 @@
+# Provider: characterai
+# Service: Character.AI
+# Group: AI
+# Purpose: Character.AI 角色对话服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,characterai.io

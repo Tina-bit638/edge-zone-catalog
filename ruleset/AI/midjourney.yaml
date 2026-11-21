@@ -1,0 +1,9 @@
+# Provider: midjourney
+# Service: Midjourney
+# Group: AI
+# Purpose: Midjourney AI 图像生成服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,midjourney.com

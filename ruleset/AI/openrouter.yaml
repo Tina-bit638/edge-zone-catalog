@@ -1,0 +1,9 @@
+# Provider: openrouter
+# Service: OpenRouter
+# Group: AI
+# Purpose: OpenRouter 多模型 API 聚合网关
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,openrouter.ai

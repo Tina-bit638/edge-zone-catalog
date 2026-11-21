@@ -1,0 +1,10 @@
+# Provider: suno
+# Service: Suno
+# Group: AI
+# Purpose: Suno AI 音乐与歌曲生成服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,suno.ai
+  - DOMAIN-SUFFIX,suno.com

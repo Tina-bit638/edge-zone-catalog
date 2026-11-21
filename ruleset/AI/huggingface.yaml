@@ -1,0 +1,11 @@
+# Provider: huggingface
+# Service: Hugging Face
+# Group: AI
+# Purpose: Hugging Face 开源模型库、数据集与 Spaces 平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,hf.space
+  - DOMAIN-SUFFIX,huggingface.co

@@ -1,0 +1,11 @@
+# Provider: elevenlabs
+# Service: ElevenLabs
+# Group: AI
+# Purpose: ElevenLabs AI 语音合成与克隆服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN,us-central1-xi-labs.cloudfunctions.net
+  - DOMAIN-SUFFIX,elevenlabs.com
+  - DOMAIN-SUFFIX,elevenlabs.io

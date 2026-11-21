@@ -1,0 +1,9 @@
+# Provider: groq
+# Service: Groq
+# Group: AI
+# Purpose: Groq 高速大模型推理云与 API 服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,groq.com

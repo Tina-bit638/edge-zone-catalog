@@ -5,6 +5,7 @@
 # Behavior: classical (Mihomo / OpenClash compatible)
 # Sources:
 #   - https://norules.oss-cn-shanghai.aliyuncs.com/data/OpenAI.yaml
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
 payload:
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
@@ -40,3 +41,10 @@ payload:
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - IP-CIDR,24.199.123.28/32,no-resolve
   - IP-CIDR,64.23.132.171/32,no-resolve
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,chatgpt.site
+  - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,openai.azure.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-KEYWORD,chatgpt-async-webps
+  - DOMAIN-KEYWORD,openaicom-api

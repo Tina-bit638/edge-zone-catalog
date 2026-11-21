@@ -1,0 +1,11 @@
+# Provider: metaai
+# Service: Meta AI
+# Group: AI
+# Purpose: Meta AI 对话与多模态助手服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN,auth.meta.com
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,metaaivm.com

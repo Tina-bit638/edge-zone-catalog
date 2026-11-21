@@ -1,0 +1,11 @@
+# Provider: poe
+# Service: Poe
+# Group: AI
+# Purpose: Quora Poe 多模型聚合对话平台
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,poecdn.net
+  - DOMAIN-SUFFIX,qpoe.com

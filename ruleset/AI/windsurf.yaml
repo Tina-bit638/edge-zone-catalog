@@ -1,0 +1,14 @@
+# Provider: windsurf
+# Service: Windsurf (Codeium)
+# Group: AI
+# Purpose: Windsurf / Codeium AI 编程编辑器服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,codeiumdata.com
+  - DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
+  - DOMAIN-SUFFIX,windsurf.ai
+  - DOMAIN-SUFFIX,windsurf.build
+  - DOMAIN-SUFFIX,windsurf.com

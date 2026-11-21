@@ -1,8 +1,8 @@
 # edge-zone-catalog
 
-OpenClash / Mihomo 独立 YAML 规则集（7 大分组，共 64 个服务）。
+OpenClash / Mihomo 独立 YAML 规则集（7 大分组，共 81 个服务）。
 
-## 全部 64 条规则集调用链接
+## 全部 81 条规则集调用链接
 
 | 分组 | Provider | Raw 调用链接 |
 | :--- | :--- | :--- |
@@ -64,6 +64,23 @@ OpenClash / Mihomo 独立 YAML 规则集（7 大分组，共 64 个服务）。
 | `AI` | `gemini` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/gemini.yaml` |
 | `AI` | `google` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/google.yaml` |
 | `AI` | `openai` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/openai.yaml` |
+| `AI` | `grok` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/grok.yaml` |
+| `AI` | `perplexity` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/perplexity.yaml` |
+| `AI` | `mistral` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/mistral.yaml` |
+| `AI` | `metaai` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/metaai.yaml` |
+| `AI` | `poe` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/poe.yaml` |
+| `AI` | `characterai` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/characterai.yaml` |
+| `AI` | `cursor` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/cursor.yaml` |
+| `AI` | `windsurf` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/windsurf.yaml` |
+| `AI` | `huggingface` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/huggingface.yaml` |
+| `AI` | `openrouter` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/openrouter.yaml` |
+| `AI` | `groq` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/groq.yaml` |
+| `AI` | `manus` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/manus.yaml` |
+| `AI` | `midjourney` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/midjourney.yaml` |
+| `AI` | `suno` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/suno.yaml` |
+| `AI` | `elevenlabs` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/elevenlabs.yaml` |
+| `AI` | `runway` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/runway.yaml` |
+| `AI` | `otherai` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/otherai.yaml` |
 | `CN` | `apple` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/apple.yaml` |
 | `CN` | `chinacompanyip` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/chinacompanyip.yaml` |
 | `CN` | `googlecn` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/googlecn.yaml` |

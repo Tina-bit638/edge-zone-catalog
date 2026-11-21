@@ -5,6 +5,7 @@
 # Behavior: classical (Mihomo / OpenClash compatible)
 # Sources:
 #   - https://norules.oss-cn-shanghai.aliyuncs.com/data/Claude.yaml
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
 payload:
   - DOMAIN,anthropic.com
   - DOMAIN,apple-relay.apple.com
@@ -25,3 +26,12 @@ payload:
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,workos.com
   - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,clau.de
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claude.dev
+  - DOMAIN-SUFFIX,claude.site
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN-SUFFIX,claudemcpcontent.com
+  - DOMAIN-SUFFIX,claudeusercontent.com

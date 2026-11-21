@@ -1,0 +1,9 @@
+# Provider: mistral
+# Service: Mistral AI
+# Group: AI
+# Purpose: Mistral AI 模型与 Le Chat 对话服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://raw.githubusercontent.com/viewer12/OverseasAI.list/main/rule/Clash/OverseasAI/OverseasAI.list
+payload:
+  - DOMAIN-SUFFIX,mistral.ai

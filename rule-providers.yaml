@@ -1,6 +1,15 @@
-# OpenClash 81 条 rule-providers 配置（仓库：Tina-bit638/edge-zone-catalog）
+# OpenClash 89 条 rule-providers 配置（6 条大组合并 + 83 条细分服务，仓库：Tina-bit638/edge-zone-catalog）
 
 rule-providers:
+  # ===== 6 大组合并规则集（CN 分组保持独立，不整组合并）（可直接按大组引用，或与下方细分规则自由组合） =====
+  socialchat_all: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat.yaml', path: ./rule_provider/SocialChat.yaml, interval: 86400 }
+  businesschat_all: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/BusinessChat.yaml', path: ./rule_provider/BusinessChat.yaml, interval: 86400 }
+  media_all: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/Media.yaml', path: ./rule_provider/Media.yaml, interval: 86400 }
+  ukmedia_all: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/UKMedia.yaml', path: ./rule_provider/UKMedia.yaml, interval: 86400 }
+  aumedia_all: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AUMedia.yaml', path: ./rule_provider/AUMedia.yaml, interval: 86400 }
+  ai_all: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI.yaml', path: ./rule_provider/AI.yaml, interval: 86400 }
+
+  # ===== 83 条细分服务规则集 =====
   facebook: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/facebook.yaml', path: ./rule_provider/SocialChat/facebook.yaml, interval: 86400 }
   twitter: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/twitter.yaml', path: ./rule_provider/SocialChat/twitter.yaml, interval: 86400 }
   instagram: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/SocialChat/instagram.yaml', path: ./rule_provider/SocialChat/instagram.yaml, interval: 86400 }
@@ -82,3 +91,5 @@ rule-providers:
   cnmedia: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/cnmedia.yaml', path: ./rule_provider/CN/cnmedia.yaml, interval: 86400 }
   microsoftcn: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/microsoftcn.yaml', path: ./rule_provider/CN/microsoftcn.yaml, interval: 86400 }
   steamcn: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/steamcn.yaml', path: ./rule_provider/CN/steamcn.yaml, interval: 86400 }
+  lan: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/lan.yaml', path: ./rule_provider/CN/lan.yaml, interval: 86400 }
+  chinadirect: { type: http, behavior: classical, format: yaml, url: 'https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/chinadirect.yaml', path: ./rule_provider/CN/chinadirect.yaml, interval: 86400 }

@@ -5,6 +5,7 @@
 # Behavior: classical (Mihomo / OpenClash compatible)
 # Sources:
 #   - https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/KakaoTalk/README.md
+#   - https://norules.oss-cn-shanghai.aliyuncs.com/data/KakaoTalk.yaml
 payload:
   - DOMAIN-SUFFIX,daum.net
   - DOMAIN-SUFFIX,daumcdn.net

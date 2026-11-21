@@ -6,6 +6,7 @@
 # Sources:
 #   - https://git.ngtech.co.il/NgTech-LTD/v2fly-domain-list-community/src/commit/629440a511cb31c4ac8995c2017cc716570aac34/data/linkedin
 #   - https://github.com/Z-Siqi/Clash-for-Windows_Rule/blob/main/Rule/LinkedIn
+#   - https://norules.oss-cn-shanghai.aliyuncs.com/data/LinkedIn.yaml
 payload:
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,licdn.com
@@ -14,3 +15,10 @@ payload:
   - DOMAIN-SUFFIX,lnkd.in
   - DOMAIN-SUFFIX,linkedinstatic.com
   - DOMAIN-SUFFIX,linkedinmail.com
+  - DOMAIN,e122475.dscg.akamaiedge.net
+  - DOMAIN,licdn.cn.cdn20.com
+  - DOMAIN,linkedin.sc.omtrdc.net
+  - DOMAIN-SUFFIX,l-0005.dc-msedge.net
+  - DOMAIN-SUFFIX,l-0005.l-msedge.net
+  - DOMAIN-SUFFIX,licdn.cn
+  - DOMAIN-SUFFIX,linkedin.cn

@@ -1,8 +1,8 @@
 # edge-zone-catalog
 
-OpenClash / Mihomo 独立 YAML 规则集（5 大分组，共 55 个服务）。
+OpenClash / Mihomo 独立 YAML 规则集（7 大分组，共 64 个服务）。
 
-## 全部 55 条规则集调用链接
+## 全部 64 条规则集调用链接
 
 | 分组 | Provider | Raw 调用链接 |
 | :--- | :--- | :--- |
@@ -59,6 +59,17 @@ OpenClash / Mihomo 独立 YAML 规则集（5 大分组，共 55 个服务）。
 | `AUMedia` | `sbsondemand` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AUMedia/SBSOnDemand.yaml` |
 | `AUMedia` | `10play` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AUMedia/10Play.yaml` |
 | `AUMedia` | `9now` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AUMedia/9Now.yaml` |
+| `AI` | `claude` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/claude.yaml` |
+| `AI` | `copilot` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/copilot.yaml` |
+| `AI` | `gemini` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/gemini.yaml` |
+| `AI` | `google` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/google.yaml` |
+| `AI` | `openai` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/AI/openai.yaml` |
+| `CN` | `apple` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/apple.yaml` |
+| `CN` | `chinacompanyip` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/chinacompanyip.yaml` |
+| `CN` | `googlecn` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/googlecn.yaml` |
+| `CN` | `cnmedia` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/cnmedia.yaml` |
+| `CN` | `microsoftcn` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/microsoftcn.yaml` |
+| `CN` | `steamcn` | `https://raw.githubusercontent.com/Tina-bit638/edge-zone-catalog/main/ruleset/CN/steamcn.yaml` |
 
 ## OpenClash `rule-providers` 完整配置
 

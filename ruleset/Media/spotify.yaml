@@ -6,6 +6,7 @@
 # Sources:
 #   - https://clashios.app/rule/spotify
 #   - https://github.com/v2fly/domain-list-community/blob/master/data/spotify
+#   - https://norules.oss-cn-shanghai.aliyuncs.com/data/Spotify.yaml
 payload:
   - DOMAIN,audio-ak-spotify-com.akamaized.net
   - DOMAIN,audio4-ak-spotify-com.akamaized.net
@@ -39,3 +40,7 @@ payload:
   - DOMAIN-KEYWORD,spotify.com
   - IP-CIDR,35.186.224.47/32,no-resolve
   - IP-CIDR,104.154.127.126/32,no-resolve
+  - DOMAIN-KEYWORD,spotify
+  - DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net
+  - DOMAIN-SUFFIX,spotify.app.link

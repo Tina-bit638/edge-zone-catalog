@@ -5,6 +5,7 @@
 # Behavior: classical (Mihomo / OpenClash compatible)
 # Sources:
 #   - https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
+#   - https://norules.oss-cn-shanghai.aliyuncs.com/data/Teams.yaml
 payload:
   - DOMAIN-SUFFIX,teams.microsoft.com
   - DOMAIN-SUFFIX,teams.cloud.microsoft
@@ -26,3 +27,5 @@ payload:
   - IP-CIDR6,2603:1063::/38,no-resolve
   - IP-CIDR6,2620:1ec:6::/48,no-resolve
   - IP-CIDR6,2620:1ec:40::/42,no-resolve
+  - DOMAIN,teams.events.data.microsoft.com
+  - DOMAIN-SUFFIX,teams.cdn.live.net

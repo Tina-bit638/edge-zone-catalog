@@ -1,0 +1,27 @@
+# Provider: claude
+# Service: Claude
+# Group: AI
+# Purpose: Anthropic Claude AI 服务
+# Behavior: classical (Mihomo / OpenClash compatible)
+# Sources:
+#   - https://norules.oss-cn-shanghai.aliyuncs.com/data/Claude.yaml
+payload:
+  - DOMAIN,anthropic.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN,apple-relay.fastly-edge.com
+  - DOMAIN,apple-relay.mask.apple-dns.net
+  - DOMAIN,augmentcode.com
+  - DOMAIN,cdn.usefathom.com
+  - DOMAIN,claude.ai
+  - DOMAIN,claude.com
+  - DOMAIN,cp4.cloudflare.com
+  - DOMAIN,cursor-cdn.com
+  - DOMAIN,cursor.com
+  - DOMAIN,cursor.sh
+  - DOMAIN,cursorapi.com
+  - DOMAIN,gspe1-ssl.ls.apple.com
+  - DOMAIN,guzzoni.apple.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,workos.com
+  - DOMAIN-SUFFIX,smoot.apple.com
